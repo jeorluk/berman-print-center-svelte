@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <base target="_top" />
+  </head>
+  <body>
+    <section id="index" />
+    <script type="module">
+      import { mount } from "svelte";
+      import Dialog from "./Dialog.svelte";
+
+      mount(Dialog, {
+        target: document.getElementById("index"),
+      });
+    </script>
+  </body>
+</html>

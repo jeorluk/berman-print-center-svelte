@@ -1,0 +1,26 @@
+node_modules/
+
+# The bundles file, ignoring as it can be generated again from the source
+dist/
+
+# ignore the .clasp.json
+.clasp.json
+
+# mac
+.DS_Store
+
+# unit test coverage
+coverage/
+
+# certs
+*.pem
+certs/
+
+# env secrets
+.env
+
+# storybook
+storybook-static/
+
+# generated faker transactions
+transactions/
