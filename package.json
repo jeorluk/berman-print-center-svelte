@@ -45,7 +45,7 @@
     "@types/google-apps-script": "^2.0.8",
     "@types/node": "^25.5.0",
     "@vitest/coverage-v8": "^4.1.0",
-    "dotenv": "^17.3.1",
+    "dotenv": "^18.0.7",
     "eslint": "^10.1.0",
     "gas-client": "^1.2.1",
     "gas-types-detailed": "^1.1.3",
